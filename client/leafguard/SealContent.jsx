@@ -21,17 +21,17 @@ export default class SealContent extends TrackerReact(Component) {
 
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="seals">
-              <img src="http://placehold.it/300x150" />
+              <img src="http://placehold.it/300x150" className="sealImgs img-responsive "/>
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="seals">
-              <img src="http://placehold.it/300x150" />
+              <img src="http://placehold.it/300x150" className="sealImgs img-responsive "/>
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="seals">
-              <img src="http://placehold.it/300x150" />
+              <img src="http://placehold.it/300x150" className="sealImgs img-responsive "/>
             </div>
           </div>
 
