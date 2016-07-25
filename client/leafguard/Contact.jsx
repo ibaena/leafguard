@@ -22,7 +22,7 @@ export default class Contact extends TrackerReact(Component) {
    let contactName = String(this.refs.name.value);
    let contactPhone = String(this.refs.phone.value);
    let contactEmail = String(this.refs.email.value);
-
+   Bert.alert( 'Thank you we will be in touch shortly!', 'success', 'fixed-top', 'fa-smile-o' );
  }
 
   render() {
