@@ -1,0 +1,26 @@
+{
+  "name": "leafgaurd",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-mounter": "^1.2.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibaena/leafguard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibaena/leafguard/issues"
+  },
+  "homepage": "https://github.com/ibaena/leafguard#readme",
+  "description": ""
+}
