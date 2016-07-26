@@ -19,6 +19,16 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+  .page-header{
+    .heading{
+      h1{
+        font-size: 5vw;
+      }
+    }
+  }
+}
+
 //Video Styles
 
 iframe{
@@ -49,7 +59,23 @@ img.img-responsive{
   .content-body{
     display: inline-block;
   }
+  .content-heading{
+    text-align: center;
+  }
+  .right-pic{
+    .img-responsive{
+      display: none !important;
+    }
+  }
 }
+@media (min-width:801px) {
+    .hide-block{
+      .img-responsive{
+        display: none !important;
+      }
+    }
+  }
+
 
 /* Gradient transparent - color - transparent */
 

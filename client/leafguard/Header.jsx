@@ -20,11 +20,11 @@ export default class Header extends TrackerReact(Component) {
       <div className="container">
         <div className="page-header">
           <div className="row">
-          <div className="col-lg-6 heading">
+          <div className="col-lg-6 col-sm-6 col-xs-6 heading">
             <h1>Example page header</h1>
           </div>
 
-          <div className="col-lg-6 heading">
+          <div className="col-lg-6 col-sm-6 col-xs-6 heading">
             <h1>Example page header</h1>
           </div>
         </div>
