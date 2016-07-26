@@ -18,7 +18,9 @@ export default class SealContent extends TrackerReact(Component) {
   render() {
     return (
       <div className="row">
-
+          <div className="col-lg-12 col-sm-12 col-xs-12 col-md-12" id="seals-title">
+            <span id="seals-text">As Seen on TV</span>
+          </div>
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="seals">
               <img src="http://placehold.it/300x150" className="sealImgs img-responsive "/>
